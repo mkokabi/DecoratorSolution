@@ -10,12 +10,14 @@ namespace MohsenApp.DecoratorSolution.ClassLibrary
 	{
 		#region Private fields
 		private string couponCode;
+		private decimal price;
 		#endregion
 
 		#region Constructors
-		public Coupon(string couponCode, Sellable item) : base("Coupon", item)
+		public Coupon(string couponCode, decimal price, Sellable item) : base("Coupon", item)
 		{
 			this.couponCode = couponCode;
+			this.price = price;
 		}
 		#endregion
 

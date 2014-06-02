@@ -10,7 +10,6 @@ namespace MohsenApp.DecoratorSolution.ClassLibrary
 	{
 		#region Private fields
 		private Sellable refItem;
-		private decimal price;
 		#endregion
 
 		#region Constructors
@@ -18,7 +17,6 @@ namespace MohsenApp.DecoratorSolution.ClassLibrary
 			: base(incentiveName)
 		{
 			this.refItem = item;
-			this.price = price;
 		}
 		#endregion
 	}

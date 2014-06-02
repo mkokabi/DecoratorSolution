@@ -45,6 +45,7 @@
     <Compile Include="Car.cs" />
     <Compile Include="Coupon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sale.cs" />
     <Compile Include="Spoiler.cs" />
   </ItemGroup>
   <ItemGroup>
